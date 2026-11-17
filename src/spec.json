@@ -1,0 +1,246 @@
+{
+  "title": "Gestione manutenzione del verde pubblico",
+  "description": "Dashboard per registrare e seguire le richieste di manutenzione, con priorità, quartiere e stato di lavorazione.",
+  "accent": "emerald",
+  "pages": [
+    {
+      "id": "panoramica",
+      "title": "Panoramica",
+      "description": "Quadro delle richieste e delle attività in corso.",
+      "metrics": [
+        {
+          "label": "Richieste aperte",
+          "value": "18"
+        },
+        {
+          "label": "Priorità alta",
+          "value": "4"
+        },
+        {
+          "label": "In lavorazione",
+          "value": "7"
+        },
+        {
+          "label": "Interventi conclusi",
+          "value": "26"
+        }
+      ],
+      "columns": [
+        "Codice",
+        "Area verde",
+        "Quartiere",
+        "Intervento",
+        "Priorità",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "RV-241",
+          "Giardino Lumo",
+          "Nubi",
+          "Potatura alberi",
+          "Alta",
+          "Da assegnare"
+        ],
+        [
+          "RV-240",
+          "Parco Vela",
+          "Aurora",
+          "Riparazione irrigazione",
+          "Media",
+          "In lavorazione"
+        ],
+        [
+          "RV-239",
+          "Viale delle Fronde",
+          "Brina",
+          "Rimozione ramo",
+          "Alta",
+          "In lavorazione"
+        ],
+        [
+          "RV-238",
+          "Orto Nubi",
+          "Nubi",
+          "Sfalcio erba",
+          "Bassa",
+          "Da assegnare"
+        ],
+        [
+          "RV-237",
+          "Giardino Aster",
+          "Aurora",
+          "Controllo giochi",
+          "Media",
+          "Conclusa"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "richieste",
+      "title": "Richieste",
+      "description": "Elenco filtrabile delle segnalazioni di manutenzione del verde.",
+      "metrics": [],
+      "columns": [
+        "Codice",
+        "Area verde",
+        "Quartiere",
+        "Intervento",
+        "Priorità",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "RV-241",
+          "Giardino Lumo",
+          "Nubi",
+          "Potatura alberi",
+          "Alta",
+          "Da assegnare"
+        ],
+        [
+          "RV-240",
+          "Parco Vela",
+          "Aurora",
+          "Riparazione irrigazione",
+          "Media",
+          "In lavorazione"
+        ],
+        [
+          "RV-239",
+          "Viale delle Fronde",
+          "Brina",
+          "Rimozione ramo",
+          "Alta",
+          "In lavorazione"
+        ],
+        [
+          "RV-238",
+          "Orto Nubi",
+          "Nubi",
+          "Sfalcio erba",
+          "Bassa",
+          "Da assegnare"
+        ],
+        [
+          "RV-237",
+          "Giardino Aster",
+          "Aurora",
+          "Controllo giochi",
+          "Media",
+          "Conclusa"
+        ],
+        [
+          "RV-236",
+          "Bosco Smeraldo",
+          "Brina",
+          "Pulizia sentieri",
+          "Bassa",
+          "In lavorazione"
+        ],
+        [
+          "RV-235",
+          "Parco Mirto",
+          "Nubi",
+          "Verifica recinzione",
+          "Media",
+          "Da assegnare"
+        ]
+      ],
+      "form": [
+        "Codice",
+        "Area verde",
+        "Quartiere",
+        "Intervento",
+        "Priorità",
+        "Stato"
+      ]
+    },
+    {
+      "id": "nuova-richiesta",
+      "title": "Nuova richiesta",
+      "description": "Registra una segnalazione indicando area, quartiere, intervento, priorità e stato iniziale.",
+      "metrics": [],
+      "columns": [
+        "Codice",
+        "Area verde",
+        "Quartiere",
+        "Intervento",
+        "Priorità",
+        "Stato"
+      ],
+      "rows": [],
+      "form": [
+        "Codice",
+        "Area verde",
+        "Quartiere",
+        "Intervento",
+        "Priorità",
+        "Stato"
+      ]
+    },
+    {
+      "id": "interventi",
+      "title": "Interventi",
+      "description": "Controlla gli interventi assegnati e quelli completati.",
+      "metrics": [
+        {
+          "label": "In lavorazione",
+          "value": "7"
+        },
+        {
+          "label": "Da assegnare",
+          "value": "11"
+        },
+        {
+          "label": "Conclusi questo mese",
+          "value": "12"
+        }
+      ],
+      "columns": [
+        "Codice",
+        "Area verde",
+        "Quartiere",
+        "Intervento",
+        "Priorità",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "RV-240",
+          "Parco Vela",
+          "Aurora",
+          "Riparazione irrigazione",
+          "Media",
+          "In lavorazione"
+        ],
+        [
+          "RV-239",
+          "Viale delle Fronde",
+          "Brina",
+          "Rimozione ramo",
+          "Alta",
+          "In lavorazione"
+        ],
+        [
+          "RV-236",
+          "Bosco Smeraldo",
+          "Brina",
+          "Pulizia sentieri",
+          "Bassa",
+          "In lavorazione"
+        ],
+        [
+          "RV-237",
+          "Giardino Aster",
+          "Aurora",
+          "Controllo giochi",
+          "Media",
+          "Conclusa"
+        ]
+      ],
+      "form": []
+    }
+  ]
+}
